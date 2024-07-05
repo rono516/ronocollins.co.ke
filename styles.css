@@ -120,7 +120,15 @@ body{
     padding: 10px 0px;
     font-size: 30px;
     background-color: #E6EBE4;
-    height: 60vh;
+    /* height: 60vh; */
+}
+.projects-list{
+    display: flex;
+    /* justify-content: space-evenly; */
+}
+.project-item{
+    padding: 30px;
+    margin: 20px;
 }
 @media only screen and (max-width: 768px) {
     /* For mobile phones: */
@@ -130,6 +138,9 @@ body{
     .menu-list{
         flex-direction: column;
         text-align: start;
+    }
+    .projects-list{
+        flex-direction: column;
     }
   }
 
