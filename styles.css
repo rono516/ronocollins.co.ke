@@ -40,10 +40,7 @@ body{
     /* font-weight: bold; */
 
 }
-.hero{
-    background-color: #FEF3DF;
-    height: 35vh;
-}
+
 #hero-image{
     height: 500px;
     margin-top: 20px;
@@ -55,6 +52,8 @@ body{
 }
 
 .hero{
+    background-color: #FEF3DF;
+    height: 40vh;
     display: flex;
     justify-content: space-around;
     padding-bottom: 230px;
@@ -97,6 +96,20 @@ body{
     width: 100%;
 }
 #check-project:hover{
+    background: #2F3349;
+    color: white;
+}
+#get-in-touch{
+    border: 1px solid #2F3349 ;
+    background: transparent;
+    color: #2F3349;
+    padding: 10px 55px;
+    font-weight: bold;
+    font-size: 16px;
+    /* width: 100%; */
+
+}
+#get-in-touch:hover{
     background: #2F3349;
     color: white;
 }
@@ -187,14 +200,64 @@ footer{
 #footer-title{
     font-weight: bold;
 }
+.links a {
+    text-decoration: none;
+    color: white;
+}
 @media only screen and (max-width: 768px) {
     /* For mobile phones: */
+    #logo-img{
+        width: 200px;
+    }
+    /* .hero{
+        flex-direction: column;
+    } */
+    .hero{
+        background-color: #FEF3DF;
+        height: 40vh;
+        display: block;
+        /* justify-content: space-around; */
+        padding-bottom: 230px;
+    }
+    .hero-description{
+        text-align: start;
+        /* display: flex; */
+        /* align-items: center; */
+        width: 90%;
+        padding: 30px 30px;
+        /* flex-direction: c; */
+        /* padding: 140px 40px; */
+        /* padding-left: 40px; */
+        /* font-weight: bold; */
+        font-size: 20px;
+    }
+    #hero-image{
+        display: none;
+    }
     .header{
         flex-direction: column;
     }
     .menu-list{
         flex-direction: column;
         text-align: start;
+    }
+    #who-iam-img{
+        display: none;
+    }
+    .who-iam{
+        padding: 10px;
+        margin-top: 30px;
+        /* background-color: #E6EBE4; */
+        color: black;
+        display: block;
+        /* justify-content: end; */
+    }
+    .who-iam-description-container{
+        width: 100%;
+        /* display: flex; */
+        /* flex-direction: column; */
+        font-size: 20px;
+        /* font-weight: bold; */
     }
     .projects-list{
         flex-direction: column;
