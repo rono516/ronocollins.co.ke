@@ -262,6 +262,11 @@ footer{
     .projects-list{
         flex-direction: column;
     }
+    .project-item{
+        padding: 30px;
+        margin: 20px;
+        width: 70%;
+    }
     .footer{
         flex-direction: column;
     }
